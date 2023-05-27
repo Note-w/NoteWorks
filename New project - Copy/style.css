@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+body {
+    text-align: center;
+    background-color: #383839ad;
+  }
+  header {
+    text-align: center;
+    font-size: smaller;
+  }
+
+  #Contact{
+    
+    
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F6F4F3;
+    
+    
+    position: relative;
+    width: 400px;
+    height:240px;
+    display:flex;                               
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 25px;
+    
+    
+    
+    
+
+   }  
+#BACK {
+  text-align: left;
+}
+
+ #Second {
+  text-align: center;
+  font-size: larger;
+ }
+ 
+ article {
+  text-align: center;
+  font-size: larger;
+ }
+
+ h3{
+  font-family: Arial;
+  text-align: center;
+ }
+
+ h2 {
+  text-align: center;
+  font-style: normal ;
+ }
+
+ button {
+  .rounded-button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  }
+  
+  background-color: rgb(10, 112, 255);
+ }
+
+ #BACK {
+  text-align: center;
+ font-size: large;
+ font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ #payment {
+  font-size: larger;
+}
+
+#MoreAboutUs {
+  font-size: x-large;
+}
+.column {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.list {
+  list-style: none;
+  padding: 1;
+  margin: 1;
+  font-size: larger;
+}
+
+.list-item {
+  display: inline-block;
+  width: 40%;
+  margin-right: 10px;
+  font-size: larger;
+} 
+;
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+nav {
+  background-color: #562d2d;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+
+nav li {
+  margin:  10px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+}
+

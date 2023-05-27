@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+          <li><a href="Html.html">Home</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="New page.html">Buy</a></li>
+        </ul>
+
+      </nav>
+    <h1 style="text-align: center;">Feedback From</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email"></label>
+        
+        
+        <label for="message">Suggestions:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+        <div id="Submitbutton">
+        <button type="submit" onclick="submitForm()">Submit</button>
+        </div>
+      </form>
+<script>
+    function submitForm() {
+  // get form values
+  var name = document.getElementById("name").value;
+  var message = document.getElementById("message").value;
+  
+  // create object with form data
+  var data = {
+    name: name,
+    email: email,
+    message: message
+  };
+  
+  // send form data to server (replace URL with your server URL)
+  fetch("noteworks.123@gmail.com", {
+    method: "POST",
+    body: JSON.stringify(data),
+    headers: {
+      "Content-Type": "application/json"
+    }
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log("Form submitted successfully:", data);
+    // display success message to user
+    alert("Thank you for your feedback!");
+  })
+  .catch(error => {
+    console.error("Error submitting form:", error);
+    // display error message to user
+    alert("There was an error submitting your feedback. Please try again later.");
+  });
+}
+
+</script>   
+</body>
+</html>
