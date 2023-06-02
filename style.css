@@ -15,7 +15,7 @@ body {
     
     
     font-family: 'Montserrat', sans-serif;
-    background-color: #000;
+    background-color: white;
     
     
     position: relative;
@@ -26,7 +26,7 @@ body {
     justify-content: center;
     margin: auto;
     border-radius: 25px;
-    text-decoration:white;
+    text-decoration:#000;
     
     
 
