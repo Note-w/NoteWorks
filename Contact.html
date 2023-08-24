@@ -1,30 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Details</title>
     <link rel="stylesheet" href="style.css">
-        
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #562d2d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover {
+            color: #ff8500;
+        }
+        .content {
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px;
+            background-color: white;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        h1 {
+            color: #562d2d;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #562d2d;
+            font-size: 1.8rem;
+            margin-top: 30px;
+        }
+        span.contact-info {
+            color: #007bff;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #562d2d;
+            color: white;
+        }
+    </style>
 </head>
-<body>
-  <nav>
-    <ul>
-      <li><a href="Html.html">NoteWorks</a></li>
-      <li><a href="New page.html">Buy</a></li>
 
-    </ul>
-  </nav>
-      <br><br><br>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Html.html">NoteWorks</a></li>
+                <li><a href="New page.html">Buy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
         <div id="Contact">
-        <header> 
-            <h1>Contact Details:</h1>
-           <h3>Email- noteworks.123@gmail.com</h3>
-            <h3>discord id - Order_#5296</h3>
-            <h3>Instagram-note.works</h3>
-            </header>
-            </div>
-            
+            <section>
+                <h1>Contact Details:</h1>
+                <h2>Email: <span class="contact-info">noteworks.123@gmail.com</span></h2>
+                <h2>Discord ID: <span class="contact-info">Order#5296</span></h2>
+                <h2>Instagram: <span class="contact-info">note.works</span></h2>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        
+    </footer>
 </body>
+
 </html>
+
