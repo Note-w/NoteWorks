@@ -4,83 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="Script.js"></script>
-           <title>Main page</title>
-           <nav>
-            <ul>
-              <li><a href="Html.html">NoteWorks</a></li>
-              <li><a href="Contact.html">Contact</a></li>
-              <li><a href="New page.html">Buy</a></li>
-              
-            </ul>
-          </nav>
-          <br><br>
-          <header>
-            <h1 style="color: rgb(58, 1, 1);">NOTE WORKS</h1>
-           </header>
+    <title>NoteWorks - Elevate Your Studies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #562d2d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover {
+            color: #ff8500;
+        }
+        .content {
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px;
+            background-color: white;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        h1 {
+            color: #562d2d;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #562d2d;
+            font-size: 1.8rem;
+            margin-top: 30px;
+        }
+        p {
+            color: #666;
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .round-rect-button {
+            background-color: #ff8500;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .round-rect-button:hover {
+            background-color: #ff9c3c;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #562d2d;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-  
-    <article>
-      <h4>
-         Buying notes can be a smart investment for people looking to 
-         improve their academic performance and save time studying.
-         In addition to time savings, 
-         buying notes can also provide you with access to valuable insights and information that 
-         you may have missed during class
-      </h4>
-      <h4>
-         One key advantage of buying notes is the convenience factor. 
-         Rather than spending hours taking detailed and organized notes, 
-         you can purchase notes that have already been created by experienced note-takers
-      </h4>
-      <h4>
-         We sell our notes with very reasonable prices you may not be able to find anywhere else
-      </h4>
-    </article>
-   <br>
-   <div id="payment">
-   <h3>Payment Methods</h3>
-   <h4>We work with the cash on delivery method of payment. You can order a chapter of a certain subject
-      through our given contact details. We also provide you with Stationary such as pens,pencils etc.
-      We will come to your class and give you the notes for that respective chapter
-   </h4>
-</div>
-  
-   <br><br>
-   <button onclick="location.href='New page.html'"class="round-rect-button">BUY HERE</button>
-   
-   <div id="MoreAboutUs">
-   <h4>MORE ABOUT US</h4>
-   <h5 style="text-align: center;">
-      Hi there! Welcome to our "More About Us" section. 
-      <br><br><br><br>
-      We are a note selling business, and we help students like you buy and sell their notes for school.
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Html.html">NoteWorks</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="New page.html">Buy</a></li>
+            </ul>
+        </nav>
+        <h1>Note Works</h1>
+    </header>
+    <div class="content">
+        <article>
+            <h2>Why Choose NoteWorks?</h2>
+            <p>
+                Elevate your academic journey with NoteWorks! Our meticulously crafted notes are designed to enhance your understanding and boost your grades. Say goodbye to hours of note-taking and hello to efficient studying.
+            </p>
+            <p>
+                We offer a wide range of subjects, providing you with comprehensive notes prepared by experienced scholars. Our mission is to empower students by offering affordable, high-quality study materials.
+            </p>
+            <p>
+                Whether you're tackling complex concepts or preparing for exams, NoteWorks has your back. Join our community of successful learners today!
+            </p>
+        </article>
+        <section id="payment">
+            <h2>Payment Made Easy</h2>
+            <p>
+                We understand your convenience. That's why we offer a hassle-free cash-on-delivery payment method. Order your desired chapters, and our dedicated team will deliver them to your classroom. Plus, we provide essential stationery to help you excel in your studies.
+            </p>
+        </section>
+        <button onclick="location.href='New page.html'" class="round-rect-button">Start Learning Now</button>
+        <section id="MoreAboutUs">
+            <h2>Discover More About Us</h2>
+            <p>
+                Welcome to the heart of NoteWorks! Our journey began with a vision of accessible education. Founded by experienced educators and enthusiasts.
+            </p>
+            <p>
+                By bridging the gap between students and educational resources, we provide a platform for knowledge sharing. When you choose NoteWorks, you're investing in your success. Our team's dedication ensures top-notch quality and continuous improvement.
+            </p>
+            <p>
+                Let's embark on a journey of academic excellence together. Your feedback drives us forward. Reach out through our website or connect on Discord and Instagram to shape the future of NoteWorks.
+            </p>
+        </section>
+    </div>
+    <footer>
+        
+    </footer>
+</body>
+</html>
 
-Our company was started by a group of 8th grade students who realized that there was a need for a platform where we could share notes with students
-We know how important it is to have good study materials, and we want to make sure that everyone has access to them.
-<br><br><br>
-
-
-When you buy notes from our platform, you can be sure that you're getting high-quality materials that will help you succeed in your classes. 
-
-
-We also offer a variety of other services, We believe that education is important, and we want to do everything we can to help you succeed.
-
-So, if you're a student looking for a reliable and safe platform to buy  notes, you've come to the right place. 
-Our team is here to help you every step of the way. Thanks for choosing us!
-
-<br><Br><br><br>
-   We're always looking for ways to improve our services and make them even better for our customers. 
-   If you have any suggestions or feedback, we'd love to hear from you! You can contact us through our website or social media channels including discord and instagram
-   </h5> 
-   </div>
-   
-   <script>
-
-   </script>
-   <br><br><br><br>
    
 
    
