@@ -1,70 +1,81 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="Script.js"></script>
-    <title>NoteWorks - Elevate Your Studies</title>
+    <title>About Us - NoteWorks</title>
     <style>
+        /* Reset and Basics */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            background-color: #f5f5f5;
         }
+
+        /* Header Styling */
         header {
-            background-color: #562d2d;
-            color: white;
+            background-color: #333;
+            color: #fff;
             text-align: center;
-            padding: 20px;
+            padding: 10px 0;
+        }
+
+        /* Navigation Styling */
+        nav {
+            background-color: #555;
+            padding: 10px 0;
         }
         nav ul {
             list-style: none;
+            margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
+            text-align: center;
+        }
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
         }
         nav a {
-            color: white;
+            color: #fff;
             text-decoration: none;
-            margin: 0 20px;
             font-weight: bold;
             transition: color 0.3s ease-in-out;
         }
         nav a:hover {
-            color: #ff8500;
+            color: #eb8416;
         }
+
+        /* Main Content Styling */
         .content {
-            max-width: 1200px;
+            max-width: 800px;
             margin: auto;
             padding: 40px;
-            background-color: white;
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
             border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             margin-top: 30px;
         }
         h1 {
-            color: #562d2d;
-            font-size: 2.5rem;
+            color: #333;
+            font-size: 3rem;
             margin-bottom: 20px;
         }
         h2 {
             color: #562d2d;
-            font-size: 1.8rem;
-            margin-top: 30px;
+            font-size: 2rem;
+            margin-bottom: 10px;
         }
         p {
-            color: #666;
-            font-size: 1.1rem;
-            line-height: 1.5;
+            color: #555;
+            font-size: 1.2rem;
+            line-height: 1.6;
             margin-bottom: 20px;
         }
         .round-rect-button {
-            background-color: #ff8500;
-            color: white;
+            background-color: #6c4627;
+            color: rgb(255, 255, 255);
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
@@ -73,57 +84,68 @@
             transition: background-color 0.3s ease-in-out;
         }
         .round-rect-button:hover {
-            background-color: #ff9c3c;
+            background-color: #452929;
+            text-align: center;
         }
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #562d2d;
-            color: white;
+            background-color: #333;
+            color: #fff;
         }
+
     </style>
+</head>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="Html.html">NoteWorks</a></li>
+                <li><a href="Html.html">Home</a></li>
                 <li><a href="Contact.html">Contact</a></li>
                 <li><a href="New page.html">Buy</a></li>
+                <li><a href="Untitled-1.html">More About Us</a></li>
             </ul>
         </nav>
-        <h1>Note Works</h1>
+        <h1>Elevate Your Studies with NoteWorks</h1>
     </header>
     <div class="content">
         <article>
-            <h2>Why Choose NoteWorks?</h2>
+            <h2> NoteWorks</h2>
+            <h3>Elevate Your Academic Path with NoteWorks: Your Pathway to Excellence</h3>
             <p>
-                Elevate your academic journey with NoteWorks! Our meticulously crafted notes are designed to enhance your understanding and boost your grades. Say goodbye to hours of note-taking and hello to efficient studying.
+                Welcome to NoteWorks, where your academic journey takes center stage. Our mission is to empower you with the tools and resources you need to excel in your studies and reach new heights of understanding. Step into a world of educational innovation with our meticulously crafted notes that are designed to revolutionize the way you learn.  
             </p>
+            
+            <h2>Crafted for Success</h2>
             <p>
-                We offer a wide range of subjects, providing you with comprehensive notes prepared by experienced scholars. Our mission is to empower students by offering affordable, high-quality study materials.
-            </p>
-            <p>
-                Whether you're tackling complex concepts or preparing for exams, NoteWorks has your back. Join our community of successful learners today!
+                Imagine bidding farewell to endless hours of note-taking and embracing a more efficient, effective approach to learning. Our notes are not just summaries but carefully curated resources that condense complex topics, making them more accessible and comprehensible. Each note is a stepping stone towards mastery, helping you grasp concepts faster and more thoroughly.
             </p>
         </article>
         <section id="payment">
-            <h2>Payment Made Easy</h2>
+            <h2>Payment:</h2>
             <p>
-                We understand your convenience. That's why we offer a hassle-free cash-on-delivery payment method. Order your desired chapters, and our dedicated team will deliver them to your classroom. Plus, we provide essential stationery to help you excel in your studies.
+                We understand the financial challenges students often face. That's why NoteWorks is committed to affordability without compromising on quality. Our notes are a valuable investment in your academic journey, ensuring that you have access to high-quality resources that enhance your learning experience.
+                <br><br>
+                We believe that learning should be seamless and convenient. That's why we've streamlined the payment process with our hassle-free cash-on-delivery option. Place your order, and your notes are delivered right to your classroom. To further support your studies, we provide essential stationery to enhance your learning environment.
             </p>
         </section>
-        <button onclick="location.href='New page.html'" class="round-rect-button">Start Learning Now</button>
+        
+        <button onclick="location.href='New page.html'" class="round-rect-button">Start Your Journey</button>
         <section id="MoreAboutUs">
-            <h2>Discover More About Us</h2>
+            <h2>More about us</h2>
             <p>
-                Welcome to the heart of NoteWorks! Our journey began with a vision of accessible education. Founded by experienced educators and enthusiasts.
+                NoteWorks. Our journey began with a vision to bridge the gap between students and educational resources. Guided by passionate educators and visionaries, our platform is a testament to the transformative power of education.
+                <br><br>
+                When you choose NoteWorks, you're investing in your own growth and academic success. Our commitment to delivering top-notch study materials is unwavering. We constantly strive to adapt and evolve to meet your ever-changing learning needs, ensuring that our notes remain relevant and effective.
+                
+            
+            <a href="Untitled-1.html">...</a>
+            <p>
+                
             </p>
             <p>
-                By bridging the gap between students and educational resources, we provide a platform for knowledge sharing. When you choose NoteWorks, you're investing in your success. Our team's dedication ensures top-notch quality and continuous improvement.
-            </p>
-            <p>
-                Let's embark on a journey of academic excellence together. Your feedback drives us forward. Reach out through our website or connect on Discord and Instagram to shape the future of NoteWorks.
+                
             </p>
         </section>
     </div>
@@ -133,10 +155,3 @@
 </body>
 </html>
 
-   
-
-   
-
-
-</body>
-</html>
